@@ -1,16 +1,13 @@
 {
-  "name": "server",
+  "name": "car-rental-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for Car Rental App (Express + MongoDB)",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
